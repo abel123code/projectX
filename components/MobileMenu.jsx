@@ -8,7 +8,7 @@ const MobileMenu = ({ session, providers, toggleMobileMenu, handleSignIn }) => {
   return (
     <div className="md:hidden bg-gray-800 absolute w-full z-20">
       <nav className="flex flex-col items-center py-4 space-y-4">
-        <Link href="/" className="hover:text-blue-500 transition-colors" onClick={toggleMobileMenu}>
+        <Link href="/home" className="hover:text-blue-500 transition-colors" onClick={toggleMobileMenu}>
           Home
         </Link>
         <Link href="/events" className="hover:text-blue-500 transition-colors" onClick={toggleMobileMenu}>

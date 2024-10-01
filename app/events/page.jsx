@@ -22,7 +22,7 @@ export default function EventsPage() {
     <div className=" bg-gray-800">
       <div className="container mx-auto w-full px-4 py-8">
         <h1 className="text-3xl font-bold mb-8 text-center text-white">Upcoming Events</h1>
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6 mb-5">
           {testEvents.map((event) => (
             <EventCard key={event.id} event={event} />
           ))}
